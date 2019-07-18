@@ -3,6 +3,7 @@
 #include <math.h>
 
 // https://www.youtube.com/watch?v=KJgsSFOSQv0
+// Stopped at: 56:00
 int main()
 {
     // String appears to be a list of char
@@ -36,8 +37,13 @@ int main()
     // Math with a float coerces all to float
     // Fun path functions
     int twoCubed = pow(2, 3);
+    int isTen = sqrt(100);
+
+    // ceil() rounds a number up
+    // floor() rounds a number down
 
     printf("twoCubed is %d.\n", twoCubed);
+    printf("isTen is %d.\n", isTen);
 
     printf("This is a %s. This is an %c. This is a %f and this is a %d", characterName, grade, sortaPi, integer);
 
